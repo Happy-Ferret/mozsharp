@@ -6,16 +6,15 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MozSharp.XPCom;
 
 namespace MozSharpTestApp
 {
     public partial class Form1 : Form
     {
         public Form1()
-        {
-            XPCom.Initialize(@"d:\xulrunner-sdk\bin");
-            InitializeComponent();         
+        {            
+            InitializeComponent();
+
         }
     }
 }
