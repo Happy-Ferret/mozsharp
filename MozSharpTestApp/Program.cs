@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using MozSharp;
 
 namespace MozSharpTestApp
 {
@@ -13,6 +14,8 @@ namespace MozSharpTestApp
         [STAThread]
         static void Main()
         {
+            MozWebBrowser.InitializeXulRunner(@"D:\xulrunner-sdk\bin");
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
