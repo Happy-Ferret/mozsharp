@@ -1,0 +1,1 @@
+This project aims to make XULRunner 2.0 / Firefox 4 functionality available for .NET.
